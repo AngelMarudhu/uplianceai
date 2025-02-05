@@ -78,6 +78,9 @@ const Login = () => {
             height: "100%",
           }}
         >
+          <Typography variant="h6" sx={{ mb: 1, fontWeight: "bold" }}>
+            Please Enter OTP Your Default OTP is 123456
+          </Typography>
           <TextField
             label="OTP"
             variant="outlined"
